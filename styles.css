@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('background.jpg'); /* Ensure the image is correctly named and in the right path */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center;
+}
+
+.container {
+    background: rgba(15, 15, 15, 0.7); /* Semi-transparent gray background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
